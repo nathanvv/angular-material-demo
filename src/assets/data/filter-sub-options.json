@@ -1,0 +1,37 @@
+[
+  {
+    "id" : 0,
+    "name" : "ELC:**INFANTS",
+    "type" : "Grade"
+  },
+  {
+    "id" : 1,
+    "name" : "Grade: ELC:**WALKERS",
+    "type" : "Grade"
+  },
+  {
+    "id" : 2,
+    "name" : "ELC:*TODDLERS",
+    "type" : "Grade"
+  },
+  {
+    "id" : 3,
+    "name" : "ELC:2 YEARS",
+    "type" : "Grade"
+  },
+  {
+    "id" : 4,
+    "name" : "ELC:3 YEARS",
+    "type" : "Grade"
+  },
+  {
+    "id" : 5,
+    "name" : "ELC:4 YEAR",
+    "type" : "Grade"
+  },
+  {
+    "id" : 6,
+    "name" : "Full Time",
+    "type" : "Sub Status"
+  }
+]

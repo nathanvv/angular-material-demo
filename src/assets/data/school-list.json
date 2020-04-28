@@ -1,0 +1,50 @@
+[
+  {
+    "configSchoolID": 5,
+    "schoolCode": "TF-FL",
+    "schoolName": "The First Academy - Classical School",
+    "defaultTermID": 3000310,
+    "defaultYearID": 3000296,
+    "nextYearID": 3000296
+  },
+  {
+    "configSchoolID": 6,
+    "schoolCode": "ELC",
+    "schoolName": "The First Academy - Early Learning Center",
+    "defaultTermID": 3000308,
+    "defaultYearID": 3000295,
+    "nextYearID": 3000295
+  },
+  {
+    "configSchoolID": 4,
+    "schoolCode": "FH",
+    "schoolName": "The First Academy - First Hope",
+    "defaultTermID": 3000317,
+    "defaultYearID": 3000299,
+    "nextYearID": 3000299
+  },
+  {
+    "configSchoolID": 2,
+    "schoolCode": "TFA-LS",
+    "schoolName": "The First Academy - Lower School",
+    "defaultTermID": 3000315,
+    "defaultYearID": 3000297,
+    "nextYearID": 3000291
+  },
+  {
+    "configSchoolID": 3,
+    "schoolCode": "TFA-MS",
+    "schoolName": "The First Academy - Middle School",
+    "defaultTermID": 3000318,
+    "defaultYearID": 3000300,
+    "nextYearID": 3000300
+  },
+  {
+    "configSchoolID": 1,
+    "schoolCode": "TFA-FL",
+    "schoolName": "The First Academy - Upper School",
+    "defaultTermID": 3000316,
+    "defaultYearID": 3000298,
+    "nextYearID": 3000294
+  }
+]

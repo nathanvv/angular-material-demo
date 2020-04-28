@@ -1,0 +1,38 @@
+[
+  {
+    "id" : 0,
+    "name" : "Student"
+  },
+  {
+    "id" : 1,
+    "name" : "StudentTermAssign"
+  },
+  {
+    "id" : 2,
+    "name" : "Staff"
+  },
+  {
+    "id" : 3,
+    "name" : "Family"
+  },
+  {
+    "id" : 4,
+    "name" : "Class"
+  },
+  {
+    "id" : 5,
+    "name" : "Homeroom"
+  },
+  {
+    "id" : 6,
+    "name" : "Activity"
+  },
+  {
+    "id" : 7,
+    "name" : "Admissions"
+  },
+  {
+    "id" : 8,
+    "name" : "Reenrollment"
+  }
+]

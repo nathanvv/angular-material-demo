@@ -1,0 +1,51 @@
+<div class="person-filter-selector-container">
+  <form [formGroup]="personFilterForm">
+
+    <div fxLayout="row" fxLayoutAlign="space-between center">
+      <!-- School selector -->
+      <mat-form-field fxFlex class="pa-0">
+        <mat-label> School </mat-label>
+        <mat-select [formControl]="configSchoolId" required>
+          <mat-option *ngFor="let school of (schoolList$ | async)" [value]="school.configSchoolID">
+            {{school?.schoolName}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <!-- Filter type selector -->
+      <mat-form-field fxFlex class="pa-0">
+        <mat-label> Type </mat-label>
+        <mat-select [formControl]="filterTypeId" required>
+          <mat-option *ngFor="let filterType of (filterTypeList$ | async)" [value]="filterType.id">
+            {{filterType?.name}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+
+    <div fxLayout="row" fxLayoutAlign="space-between center">
+      <!-- Filter options selector -->
+      <mat-form-field fxFlex class="pa-0">
+        <mat-label> Type </mat-label>
+        <mat-select [formControl]="filterOption" [compareWith]="compareId">
+          <mat-option *ngFor="let filterOption of (filterOptionsList$ | async)" [value]="filterOption">
+            {{filterOption?.name}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <!-- Filter sub options selector -->
+      <mat-form-field fxFlex class="pa-0">
+        <mat-label> Type </mat-label>
+        <mat-select [formControl]="filterSubOption" [compareWith]="compareId">
+          <mat-option>None</mat-option>
+          <mat-option *ngFor="let filterSubOption of (filterSubOptionsList$ | async)" [value]="filterSubOption">
+            {{filterSubOption?.name}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+
+  </form>
+
+</div>
